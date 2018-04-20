@@ -13,8 +13,8 @@ function showRepositories(event, data) {
             <p>Watchers: ${r.watchers_count}</p>
             <p>Forks: ${r.forks_count}</p>
             <p>Issues: ${r.open_issues_count}</p>
-          </li>`
-          )
+          </li>
+          `)
   }).join('') + "</ul>"
   document.getElementById("repositories").innerHTML = repoList
 }
